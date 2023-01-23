@@ -20,6 +20,6 @@ func (p Persona) CalcularAñoNacimiento() (int, error) {
 
 }
 
-func (p Persona) Agear() {
+func (p *Persona) Agear() {
 	p.Edad++
 }
